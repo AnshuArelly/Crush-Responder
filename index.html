@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crush Text Responder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>💬 Crush Text Responder</h2>
+            <p>Enter your crush’s text below and get a perfect reply:</p>
+            <textarea id="userInput" placeholder="Type here..."></textarea>
+
+            <label for="responseType">Select the response type:</label>
+            <select id="responseType">
+                <option value="flirty">😍 Flirty</option>
+                <option value="funny">😂 Funny</option>
+                <option value="angry">😡 Angry</option>
+                <option value="savage">🔥 Savage</option>
+                <option value="cute">🥰 Cute</option>
+            </select>
+
+            <button onclick="generateReply()">Generate Reply</button>
+        </div>
+
+        <p id="responseText"></p> <!-- This will display the animated response -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
